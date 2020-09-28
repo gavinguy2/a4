@@ -1,0 +1,192 @@
+*{
+	
+	box-sizing: border-box;
+    color: aliceblue;
+    font-size: 20px;
+    
+}
+
+main{
+    
+   
+    display: grid;
+    
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    
+    grid-gap: 20px;
+
+    
+}
+
+#logo{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2em;
+    grid-column: span 2;
+    grid-row: span 1;
+    
+}
+#nav{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2em;
+    grid-column: span 4;
+    grid-row: span 1;
+}
+#top #gallery {
+    width: 80%;
+}
+#hero{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2em;
+    grid-column: span 8;
+    grid-row: span 4;
+}
+#one{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2em;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+#two{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2em;
+    grid-column: span 2;
+    grid-row: span 2;
+}
+#three{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2em;
+    grid-column: span 2;
+    grid-row: span 2;
+    
+}
+#gallery{
+    
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(1fr, 2fr));
+     grid-auto-rows: minmax(1fr, 4fr);
+    grid-column: span 6;
+    grid-row: span 8;
+    grid-gap: 20px;
+    grid-auto-flow: dense;
+    
+    grid-template-areas: 
+        "a a b c c d"
+        "a a e f f d"
+        "g h e f f d"
+        "i j j k l m";  
+
+    
+        
+}
+
+
+
+.item_a{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: a;
+    
+}
+.item_b{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: b;
+    
+}
+.item_c{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: c;
+    
+}
+.item_d{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: d;
+    
+}
+.item_e{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: e;
+    
+}
+.item_f{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: f;
+    
+}
+.item_g{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: g;
+    
+}
+.item_h{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: h;
+    
+}
+.item_i{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: i;
+    
+}
+.item_j{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: j;
+    
+}
+.item_k{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: k;
+    
+}
+.item_l{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: l;
+    
+}
+.item_m{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    grid-area: m;
+    
+}
+#footer{
+    border: 1px solid rgb(0,95,107);
+    background-color: rgba(0,95,107,0.8);
+    padding: 0.2em;
+    grid-column: span 8;
+    grid-row: span 1;
+}
+.white{
+    grid-column: span 1;
+    
+}
+.white_long{
+    grid-column: span 1;
+    grid-row: span 3;
+}
+
+
+
+
+
+
+
+
+
